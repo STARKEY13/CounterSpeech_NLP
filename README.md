@@ -4,6 +4,15 @@ _A robust framework for generating fact-based, context-aware counterspeech using
 
 ---
 
+
+Overview
+The proliferation of hate speech on digital platforms poses significant risks to individuals and society. While automated counterspeech generation has emerged as a promising strategy, most existing systems lack factual grounding and persuasive impact.
+
+This project proposes a novel framework that combines large pre-trained language models (BLOOMZ, FLAN-T5-XL) with external knowledge retrieval to generate context-aware, non-aggressive, and fact-based counterspeech.
+We leverage advanced fine-tuning techniques (LoRA, instruction tuning, prefix/prompt tuning) and retrieval-augmented generation (RAG) to ensure responses are both relevant and verifiable.
+
+🔹 All fine-tuned model files, training scripts, and screenshots of training loss (from IPython notebooks) for each tuning method (LoRA, instruction tuning, prefix tuning, prompt tuning) applied on BLOOMZ and FLAN-T5-XL are included in this repository as separate directories.
+---
 ## Table of Contents
 
 - [Overview](#overview)
@@ -17,14 +26,6 @@ _A robust framework for generating fact-based, context-aware counterspeech using
 - [How to Run](#how-to-run)
 - [References](#references)
 
----
-
-## Overview
-
-The proliferation of hate speech on digital platforms poses significant risks to individuals and society. While automated counterspeech generation has emerged as a promising strategy, most existing systems lack factual grounding and persuasive impact.
-
-**This project proposes a novel framework that combines large pre-trained language models (BLOOMZ, FLAN-T5-XL) with external knowledge retrieval to generate context-aware, non-aggressive, and fact-based counterspeech.**  
-We leverage advanced fine-tuning techniques (LoRA, instruction tuning, prefix/prompt tuning) and retrieval-augmented generation (RAG) to ensure responses are both relevant and verifiable.
 
 ---
 
