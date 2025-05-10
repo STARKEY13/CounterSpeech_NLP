@@ -128,7 +128,7 @@ Use `evaluate.py` for metrics.
 
 ---
 
-**For full details, see [Counter Speech Generation.pdf](NLP_Project_Report.pdf) included in this repository.**
+**For full details, see [Counter Speech Generation.pdf](NLP_Project_Report(1).pdf) included in this repository.**
 
 ---
 
